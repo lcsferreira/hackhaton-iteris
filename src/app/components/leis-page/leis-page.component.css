@@ -4,3 +4,8 @@
 a {
   color: #8be9fd;
 }
+.lista {
+  font-weight: bold;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
