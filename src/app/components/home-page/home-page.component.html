@@ -1,1 +1,13 @@
-<p>home-page works!</p>
+<div>
+  <h1>{{listaDeLeis[0].nome}}</h1>
+  <a href="{{listaDeLeis[0].site}}" target="_blank">
+    <img [src]="imagemLei" alt="">
+  </a>
+  <p>{{ listaDeLeis[0].descricao }}</p>
+</div>
+<div>
+  <h2>Instituições de ajuda</h2>
+  <img [src]="imagemAtual">
+  <button (click)="anterior()">Anterior</button>
+  <button (click)="proximo()">Próximo</button>
+</div>
