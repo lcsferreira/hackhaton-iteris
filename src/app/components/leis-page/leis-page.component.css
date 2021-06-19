@@ -1,11 +1,16 @@
 .lista-completa {
-  height: 100vh;
+  min-height: 100vh;
 }
 a {
   color: #8be9fd;
 }
 .lista {
   font-weight: bold;
+  font-size: medium;
   margin-left: 5vw;
   margin-right: 5vw;
+  padding-top: 5vh;
+}
+.lista p {
+  margin-bottom: 0;
 }

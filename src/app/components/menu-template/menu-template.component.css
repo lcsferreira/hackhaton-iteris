@@ -59,4 +59,5 @@
 .fundo {
   background-color: #282a36;
   color: white;
+  height: max-content;
 }
