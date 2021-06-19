@@ -55,3 +55,8 @@
 .barraPrincipal {
   font-size: 15px;
 }
+
+.fundo {
+  background-color: #282a36;
+  color: white;
+}

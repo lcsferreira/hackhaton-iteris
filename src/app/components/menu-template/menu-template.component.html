@@ -20,7 +20,7 @@
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
-    <mat-toolbar class="barra"color="warn">
+    <mat-toolbar class="barra">
       <button
         type="button"
         aria-label="Toggle sidenav"
@@ -31,6 +31,8 @@
       </button>
       <span class="barraPrincipal">Serviço de ajuda para mulheres {{pagAtual}}</span>
     </mat-toolbar>
-    <router-outlet></router-outlet>
+    <div class ="fundo">
+      <router-outlet></router-outlet>
+    </div>
   </mat-sidenav-content>
 </mat-sidenav-container>

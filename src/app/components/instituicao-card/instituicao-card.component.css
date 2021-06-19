@@ -16,3 +16,7 @@ a {
 mat-card-content {
   margin: 10px;
 }
+mat-card {
+  background-color: #282a36;
+  color: white;
+}
