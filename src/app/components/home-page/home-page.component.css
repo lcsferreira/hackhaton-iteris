@@ -1,0 +1,39 @@
+
+.titulo{
+  display: flex;
+  justify-content: center;
+
+}
+
+.imagem{
+  display: flex;
+  justify-content: center;
+}
+
+.descricao{
+  display: flex;
+  justify-content: center;
+  font-weight:bold;
+
+}
+
+.titulo2{
+  display: flex;
+  justify-content: center;
+
+}
+.imagem2{
+  display: flex;
+  justify-content: center;
+
+}
+.botao{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+img{
+  width: 80%;
+  border-radius: 5px;
+}

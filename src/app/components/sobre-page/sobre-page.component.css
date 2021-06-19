@@ -6,9 +6,9 @@
   min-height: 50vh;
 }
 .wrapper p {
- font-weight: bold;
-
+ font-weight:bold;
 }
+
 img {
   max-width: 90%;
   border-radius: 5px;

@@ -1,13 +1,22 @@
-<div>
+<div class="titulo">
   <h1>{{listaDeLeis[0].nome}}</h1>
+</div>
+<div class="imagem">
   <a href="{{listaDeLeis[0].site}}" target="_blank">
     <img [src]="imagemLei" alt="">
   </a>
+</div>
+<div class="descricao">
   <p>{{ listaDeLeis[0].descricao }}</p>
 </div>
-<div>
+<div class="titulo2">
   <h2>Instituições de ajuda</h2>
+</div>
+<div class=" imagem">
   <img [src]="imagemAtual">
-  <button (click)="anterior()">Anterior</button>
-  <button (click)="proximo()">Próximo</button>
+</div>
+<div class="botao">
+  <button mat-button (click)="anterior()">Anterior</button>
+  <button mat-button (click)="proximo()">Próximo</button>
+
 </div>
