@@ -14,6 +14,8 @@ import { MatListModule } from '@angular/material/list';
 import { HomePageComponent } from './components/home-page/home-page.component';
 import { SobrePageComponent } from './components/sobre-page/sobre-page.component';
 import { InstituicoesPageComponent } from './components/instituicoes-page/instituicoes-page.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -32,7 +34,8 @@ import { InstituicoesPageComponent } from './components/instituicoes-page/instit
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
