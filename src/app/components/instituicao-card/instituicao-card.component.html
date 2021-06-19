@@ -1,0 +1,16 @@
+<mat-card>
+  <mat-card-title>{{instituicao?.nome}}</mat-card-title>
+  <a href="{{instituicao?.site}}" target="_blank">
+    <img [src]="instituicao?.imagem">
+    <!-- <div
+    style="background-image: '{{instituicao?.imagem}}';
+    "></div> -->
+  </a>
+  <mat-card-content>
+    <p>
+      {{instituicao?.descricao}}
+    </p>
+  </mat-card-content>
+</mat-card>
+
+<!-- <div style="background-image: '{{instituicao?.imagem}}';"></div> -->

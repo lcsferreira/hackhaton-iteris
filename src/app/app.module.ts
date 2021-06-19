@@ -15,7 +15,8 @@ import { HomePageComponent } from './components/home-page/home-page.component';
 import { SobrePageComponent } from './components/sobre-page/sobre-page.component';
 import { InstituicoesPageComponent } from './components/instituicoes-page/instituicoes-page.component';
 import { HttpClientModule } from '@angular/common/http';
-
+import { InstituicaoCardComponent } from './components/instituicao-card/instituicao-card.component';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { HttpClientModule } from '@angular/common/http';
     MenuTemplateComponent,
     HomePageComponent,
     SobrePageComponent,
-    InstituicoesPageComponent
+    InstituicoesPageComponent,
+    InstituicaoCardComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +37,8 @@ import { HttpClientModule } from '@angular/common/http';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    HttpClientModule
+    HttpClientModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

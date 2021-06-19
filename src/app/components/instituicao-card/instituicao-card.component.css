@@ -1,0 +1,18 @@
+app-instiuicao-card {
+  display: block;
+}
+img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+mat-card-title {
+  display: flex;
+  justify-content: center;
+}
+a {
+  display: flex;
+  justify-content: center;
+}
+mat-card-content {
+  margin: 10px;
+}
