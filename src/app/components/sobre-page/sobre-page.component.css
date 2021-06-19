@@ -2,11 +2,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   min-height: 50vh;
 }
 .wrapper p {
- font-weight:bold;
+  font-weight: bold;
+  text-align: justify;
+  margin-left: 15vw;
+  margin-right: 15vw;
 }
 
 img {

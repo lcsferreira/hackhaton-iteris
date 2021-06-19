@@ -1,9 +1,40 @@
 .sidenav-container {
   height: 100%;
 }
+.menu {
+  color: rgb(236, 238, 93);
+}
+.home {
+  background-color: rgb(50, 50, 121) !important;
+}
+.home a {
+  color: rgb(236, 238, 93);
+}
+.instituicoes {
+  background-color: rgb(60, 60, 146) !important;
+}
+.instituicoes a {
+  color: rgb(236, 238, 93);
+}
+.leis {
+  background-color: rgb(71, 71, 173) !important;
+}
+
+.leis a {
+  color: rgb(236, 238, 93);
+}
+
+.sobre {
+  background-color: rgb(85, 85, 206) !important;
+}
+.sobre a {
+  color: rgb(236, 238, 93);
+}
 
 .sidenav {
   width: 200px;
+  font-weight: bold;
+  background-color: rgb(31, 31, 73);
 }
 
 .sidenav .mat-toolbar {
@@ -14,4 +45,13 @@
   position: sticky;
   top: 0;
   z-index: 1;
+}
+
+.barra {
+  background-color: rgb(50, 50, 121);
+  color: rgb(236, 238, 93);
+}
+
+.barraPrincipal {
+  font-size: 15px;
 }

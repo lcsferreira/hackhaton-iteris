@@ -3,16 +3,24 @@
       [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
       [mode]="(isHandset$ | async) ? 'over' : 'side'"
       [opened]="(isHandset$ | async) === false">
-    <mat-toolbar>Menu</mat-toolbar>
+    <mat-toolbar class="menu"></mat-toolbar>
     <mat-nav-list>
-      <a mat-list-item routerLink="/">Home</a>
-      <a mat-list-item routerLink="/instituicoes">Instiuições</a>
-      <a mat-list-item routerLink="/leis">Leis</a>
-      <a mat-list-item routerLink="/sobre">Sobre</a>
+      <div class ="home">
+        <a mat-list-item routerLink="/" (click)="trocaPagina('- Home')">{{home}}</a>
+      </div>
+      <div class ="instituicoes">
+        <a mat-list-item routerLink="/instituicoes" (click)="trocaPagina('- Instituições')">{{inst}}</a>
+      </div>
+      <div class ="leis">
+        <a mat-list-item routerLink="/leis" (click)="trocaPagina('- Leis')">{{leis}}</a>
+      </div>
+      <div class ="sobre">
+        <a mat-list-item routerLink="/sobre" (click)="trocaPagina('- Sobre')">{{sobre}}</a>
+      </div>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
-    <mat-toolbar color="primary">
+    <mat-toolbar class="barra"color="warn">
       <button
         type="button"
         aria-label="Toggle sidenav"
@@ -21,7 +29,7 @@
         *ngIf="isHandset$ | async">
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
-      <span>Serviço de ajuda para mulheres</span>
+      <span class="barraPrincipal">Serviço de ajuda para mulheres {{pagAtual}}</span>
     </mat-toolbar>
     <router-outlet></router-outlet>
   </mat-sidenav-content>

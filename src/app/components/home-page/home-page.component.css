@@ -1,39 +1,41 @@
-
-.titulo{
-  display: flex;
-  justify-content: center;
-
-}
-
-.imagem{
+.titulo {
   display: flex;
   justify-content: center;
 }
 
-.descricao{
+.imagem {
   display: flex;
   justify-content: center;
-  font-weight:bold;
-
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.titulo2{
+.descricao {
   display: flex;
   justify-content: center;
-
+  font-weight: bold;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  text-align: justify;
 }
-.imagem2{
+
+.titulo2 {
   display: flex;
   justify-content: center;
-
 }
-.botao{
+.imagem2 {
+  display: flex;
+  justify-content: center;
+}
+.botao {
   display: flex;
   justify-content: space-between;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
-img{
-  width: 80%;
+img {
+  width: 100%;
   border-radius: 5px;
 }

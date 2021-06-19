@@ -1,7 +1,7 @@
-<mat-list role="list">
-  <a href="{{lei.site}}" target="_blank"*ngFor="let lei of listaDeLeis">
-    <mat-list-item role="listitem">
-      {{lei.nome}} - Data: {{lei.data}}
-    </mat-list-item>
-  </a>
-</mat-list>
+<div>
+  <div class="lista" *ngFor="let lei of listaDeLeis">
+    <a href="{{lei.site}}" target="_blank">{{lei.nome}}</a>
+    <p>{{lei.descricao}}</p>
+  </div>
+</div>
+

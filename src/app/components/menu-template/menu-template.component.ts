@@ -10,6 +10,13 @@ import { map, shareReplay } from 'rxjs/operators';
 })
 export class MenuTemplateComponent {
 
+  home:string = 'Home';
+  inst:string = 'Instituições';
+  leis:string = 'Leis';
+  sobre:string = 'Sobre';
+
+  pagAtual:string = '';
+
   isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
     .pipe(
       map(result => result.matches),
@@ -18,4 +25,7 @@ export class MenuTemplateComponent {
 
   constructor(private breakpointObserver: BreakpointObserver) {}
 
+  trocaPagina(pagina:string): void{
+    this.pagAtual = pagina;
+  }
 }
