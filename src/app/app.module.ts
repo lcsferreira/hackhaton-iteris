@@ -17,6 +17,8 @@ import { InstituicoesPageComponent } from './components/instituicoes-page/instit
 import { HttpClientModule } from '@angular/common/http';
 import { InstituicaoCardComponent } from './components/instituicao-card/instituicao-card.component';
 import { MatCardModule } from '@angular/material/card';
+import { LeisPageComponent } from './components/leis-page/leis-page.component';
+import {MatTableModule} from '@angular/material/table';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,8 @@ import { MatCardModule } from '@angular/material/card';
     HomePageComponent,
     SobrePageComponent,
     InstituicoesPageComponent,
-    InstituicaoCardComponent
+    InstituicaoCardComponent,
+    LeisPageComponent
   ],
   imports: [
     BrowserModule,
@@ -38,7 +41,8 @@ import { MatCardModule } from '@angular/material/card';
     MatIconModule,
     MatListModule,
     HttpClientModule,
-    MatCardModule
+    MatCardModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
